@@ -5,7 +5,8 @@ shrink a bunch of images at once for uploading to a website.
 ## installing
 
 - install node.js and npm from https://nodejs.org/.
-- download this code and extract to a folder somewhere (anywhere is fine).
+- download this code (on github, look for "Code" -> Download ZIP").
+- extract to a folder somewhere (anywhere is fine).
 - open a terminal in that folder and run this command to download required node_modules:
   ```
   npm install
