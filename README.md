@@ -28,9 +28,9 @@ the shrunken images will be written to the "out" folder.
 
 ## notes
 
-this doesn't actually "resize" the images, instead it produces reduced jpegs to the desired file size. the default file size is 400 kB but you can edit the "thresholdBytes" variable at the top of img-shrink.js to change this.
+the default file size is 400 kB but you can edit the "thresholdBytes" variable at the top of img-shrink.js to change this.
 
-if you are using these as thumbnails on your website, make sure the `<img>` tag specifies a width or height, otherwise the image will appear full width (but at its reduced jpeg resolution).
+this reduces resolution but doesn't change the image's reported width or height. if you are using these as thumbnails on your website, make sure the `<img>` tag specifies a width or height, otherwise the image will appear full width (but at its reduced jpeg resolution).
 
 ## uninstalling
 
