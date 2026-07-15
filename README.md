@@ -1,6 +1,6 @@
 # img-shrink.js
 
-shrink a bunch of images at once for uploading to a website.
+shrink a bunch of images at once for uploading to a website, using [Sharp](https://sharp.pixelplumbing.com/) to convert to lower-quality jpegs with [mozjpeg](https://github.com/mozilla/mozjpeg/blob/master/README.md) optimizations.
 
 ## installing
 
